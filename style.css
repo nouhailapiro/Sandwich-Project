@@ -4,8 +4,8 @@ body{
 }
 .container{
     width:auto;
+    border: white 1px;
     margin:auto
-    background-color: white;
-    height: auto;
     
+
 }
