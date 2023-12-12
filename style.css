@@ -191,6 +191,7 @@ button{
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
     background-color: beige;
+    transition: all 0.5s ease-in;
     
 } 
 button:hover{
