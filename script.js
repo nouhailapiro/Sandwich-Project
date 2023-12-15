@@ -55,5 +55,5 @@ function drop(e) {
 }
 
 function resetPage() {
-    location.reload(); // Refreshes the page
+    location.reload(); 
 }
