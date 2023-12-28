@@ -1,0 +1,100 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding:0;
+  font-family: 'Courier New', Courier, monospace;
+} 
+
+
+header{
+  background-color: beige;
+  height:100px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+
+header h1{
+  text-align: center;
+  color:blueviolet;
+  padding-top: 20px;
+  font-size: 50px;
+}
+
+#container h1{
+  text-align: center;
+  padding-top: 30px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+#container{
+  background-color: beige;
+  width:500px;
+  height:500px;
+  border-radius: 30px;
+  margin-top: 110px;
+  margin-left: 490px;
+}
+
+#container img{
+  max-width: 100%;
+  max-height: 250px;
+  width: auto;
+  display: block;
+  margin-top: 40px;
+  margin-left:50px;
+  margin-bottom:40px;
+}
+
+button{
+  padding: 15px;
+  margin-left: 140px;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  background-color:whitesmoke;
+  border: 0;
+  transition: all 0.5s ease-in;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+} 
+
+button a {
+  text-decoration: none;
+  color: black;
+}
+
+button a:hover{
+  color: white;
+}
+
+  
+button:hover{
+  background-color: blueviolet;
+  border: 0;
+  color: white;
+  cursor: pointer;
+  transition: all 0.5s ease-in;
+  
+}
+
+.animated-text-container {
+  overflow: hidden;
+}
+
+/* Style the text initially */
+.animated-text {
+  opacity: 0;
+  transform: translateY(-50px);
+  animation: fadeInUp 1s ease-in-out forwards;
+}
+
+/* Keyframes for the fade-in animation */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(-50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

@@ -9,19 +9,38 @@ header{
     height:100px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
+
+
 }
 header h1{
     text-align: center;
     color:blueviolet;
     padding-top: 20px;
     font-size: 50px;
+}
+
+.center{
+    padding-bottom: 20px;
+    position:relative;
+    transform: translate(0px, -30px) ;
+}
     
 
-}
 .workspace{
     height:800px;
     width: 100%;
+    
 } 
+
+.highlightable {
+    border: 1.5px solid transparent; /* Bordure transparente par défaut */
+    transition: border-color 0.3s ease; /* Transition de la couleur de la bordure */
+}
+
+.highlightable:hover {
+    border-color: blueviolet;
+}
+
 .breadcontainer{
     margin-top:100px;
     width:50%;
@@ -42,6 +61,7 @@ header h1{
    height:300px;
    margin: 10px;
    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   border-radius: 15px;
    
    position:relative;
 }
@@ -63,6 +83,7 @@ header h1{
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 
 .oignon{
@@ -145,6 +166,9 @@ header h1{
 }
 .breadcontainer{
     background-color:beige;
+    border-radius: 15px;
+    
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     width:500px;
     height:500px;
     margin: 10px;
@@ -230,15 +254,22 @@ a:hover{
 #result img {
     margin-left: 200px;
     text-align: center; 
-    position: relative; 
-
- 
-    
-
- 
-    
+     
 }
-   
+
+#restart{
+    width: 200px;
+    height: 50px;
+    position: static;
+    
+}    
+
+ 
+#container{
+    background-image: url("/img/R.png");
+    background-size: cover;
+    background-repeat: repeat;
+}
    
 
 
